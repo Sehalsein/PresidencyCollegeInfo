@@ -7,6 +7,7 @@ package com.sehalsein.presidencycollegeinfo.Model;
 public class ListModel {
     String quetions;
     String answers;
+    int images;
 
     public ListModel() {
     }
@@ -22,6 +23,14 @@ public class ListModel {
 
     public String getAnswers() {
         return answers;
+    }
+
+    public int getImages() {
+        return images;
+    }
+
+    public void setImages(int images) {
+        this.images = images;
     }
 
     public void setAnswers(String answers) {

@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.sehalsein.presidencycollegeinfo.Activity.Solutions;
@@ -47,7 +48,9 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder
     public void onBindViewHolder(ListAdapter.ListViewHolder listViewHolder, final int position) {
 
         final ListModel listModel = listModelList.get(position);
-        listViewHolder.questions.setText(listModel.getQuetions());
+        Log.d("ADAPTER",listModel.getQuetions());
+        listViewHolder.questions.setText(listModel.getQuetions().toUpperCase());
+        listViewHolder.images.setBackgroundResource(listModel.getImages());
 
         listViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,7 +58,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder
                 Log.e("TAG", "Model - "+position);
 
                 Intent intent =  new Intent(context, Solutions.class);
-                UserData.answers = listModel.getAnswers();
+                UserData.listModel = listModel;
                 context.startActivity(intent);
 
             }
@@ -71,11 +74,13 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder
     public class ListViewHolder extends RecyclerView.ViewHolder {
 
         TextView questions;
+        ImageView images;
 
         public ListViewHolder(View itemView) {
             super(itemView);
 
             questions = (TextView) itemView.findViewById(R.id.questions);
+            images = (ImageView) itemView.findViewById(R.id.images);
 
         }
     }

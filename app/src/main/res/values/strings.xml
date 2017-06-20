@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Presidency College Info</string>
+
+    <!--> Categories <-->
+    <string name="route">ROUTE</string>
+    <string name="securityCheck">SECURITY CHECK</string>
+    <string name="reception">Reception / Help desk</string>
+    <string name="orientation">Orientation programme</string>
+    <string name="administration">Administration Department</string>
+    <string name="accounts">Accounts Department</string>
+    <string name="library">Library</string>
+    <string name="classRoom">Class Room</string>
+    <string name="canteen">Canteen Facility</string>
+    <string name="sports">Sports</string>
+    <string name="club">Club</string>
+    <string name="parking">Parking</string>
+    <string name="clinic">Clinic</string>
+    <string name="hostel">Hostel</string>
+    <string name="studentSupport">Student Support</string>
 </resources>
