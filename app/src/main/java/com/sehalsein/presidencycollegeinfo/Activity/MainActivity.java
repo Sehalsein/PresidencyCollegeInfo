@@ -33,12 +33,12 @@ public class MainActivity extends AppCompatActivity {
             "Administration Department",
             "Accounts Department",
             "Library",
-            "Class Room",
+            "Lecture halls",
             "Canteen Facility",
             "Sports",
             "Club",
             "Parking",
-            "Clinic",
+            "CLINIC and Counsellor",
             "Hostel",
             "Student Support"};
 
@@ -62,70 +62,100 @@ public class MainActivity extends AppCompatActivity {
 
     String solutions[] = {
             /*ROUTE*/
-            "From Hebbal or Yelhanka reach Esteem mall bus stop.\n" +
-                    "5 min walk through the adjacent road of Esteem Mall.\n" +
-                    "0.5 km distance to reach college.",
+            "Landmark 1: Esteem Mall\n" +
+                    "Landmark 2: Towards Kempapura road\n" +
+                    "5 mins walk on this road towards Kempapura\n" +
+                    "College building to your left",
 
             /*SECURITY CHECK*/
-            "Securities at the  gate check ID card(except freshers).\n" +
-                    "Parents must register and acquire visitors pass from security chamber.",
+            "Security check at gate a must\n" +
+                    "ID cards to be displayed prominently\n" +
+                    "Registration at counter a must for visitors and parents\n" +
+                    "Uniform check a must at gate\n" +
+                    "CCTV monitored gates",
 
             /*Reception*/
-            "Any queries related to college regarding admission, class rooms and staff will be attended.",
+            "Digital display  boards at lobby\n" +
+                    "Ms Radhika at the reception\n" +
+                    "Lift access is only on permission\n" +
+                    "Soft tone of language and voice is respected",
 
             /*Orientation*/
-            "Brief and basic introduction of college and course will be given for the freshers.\n" +
-                    "It would be conducted by the respective head of the department",
+            "A must for all students\n" +
+                    "Session for overview of College and courses of the Department\n" +
+                    "Conducted by the Head of the Department\n" +
+                    "Venue: Seminar hall",
 
             /*Administration*/
-            "Location-Basement\n" +
-                    "Queries related to admission formalities pertaining to university norms can be clarified.",
+            "Located in the basement\n" +
+                    "Contact point for all queries related to admission formalities and University norms\n" +
+                    "Contact point: Ms Bhan",
 
             /*Accounts*/
-            "Location- Right side of Atrium \n" +
-                    "Any queries/payments regarding course fee structure.",
+            "Located in the ground floor next to Admission office near the Atrium \n" +
+                    "All course fee, exam fee, other fee done here",
 
             /*Library*/
-            "Location-2nd and 3rd floor.\n" +
-                    "Temporary ID CARD will be provided for the fresher.",
+            "Located at the 2nd & 3rd floors\n" +
+                    "Temporary ID CARDs will be provided for all freshers\n" +
+                    "A must use space for all students",
 
             /*Class*/
-            "UG: B1,B2,G1,G2.\n" +
-                    "LAB-ROOMS: LAB1,LAB2,LAB3. ",
+            "UG courses:\n" +
+                    "BCA/BA: Basement classrooms and Psychology Lab\n" +
+                    "BCom/BBA:  Ground floor, above the Atrium classrooms and II floor\n" +
+                    "Computer labs: Ground floor",
 
             /*Canteen*/
-            "Menu for each day -Break fast, Lunch and snacks, will be different.",
+            "Located at the rear side of the building\n" +
+                    "Menu at display for each day -Break fast, Lunch and snack available apart from ice cream and chaat\n" +
+                    "Veg and Non veg food available",
 
             /*Sports*/
-            "Outdoor Games\n" +
+            "Indoor and Outdoor games\n" +
                     "Basket ball court: near parking area\n" +
                     "Badminton court: near parking area\n" +
                     "Indoor Games\n" +
-                    "Table tennis & carom : 4th floor.",
+                    "Table tennis & carrom : 4th floor.",
 
             /*Club*/
-            "GYM:4th floor",
+            "Technozia – IT Club\n" +
+                    "Disha – Cultural  Club\n" +
+                    "ECO Club\n" +
+                    "Udaan – Human  Rights Club\n" +
+                    "Rotaract Club \n" +
+                    "Khoj  – Hindi Club\n" +
+                    "Odyssey – English Club \n" +
+                    "Prathibhana – Kannada Club ",
 
             /*Parking*/
-            "2 wheelers only\n" +
-                    "500 rupees will be collected \n" +
-                    "Parking card provided to student after paying amount.\n" +
-                    "Flash parking card to security for entry in college.",
+            "For 2 wheelers only\n" +
+                    "Rs 500 parking fee paid in advance \n" +
+                    "Parking sticker a must \n" +
+                    "Flash parking card at security for smooth entry at gate\n" +
+                    "Speed limit controlled\n" +
+                    "No honking or revving engine inside campus",
 
             /*Clinic*/
-            "Location-Admission Department\n" +
-                    "Doctor available for consultation.",
+            "Located inside Marketing office\n" +
+                    "Doctor on call \n" +
+                    "First aid and basic medical aid ready at campus\n" +
+                    "Counsellor: Ms Bhama Suresh",
 
             /*Hostel*/
-            "BOYS & GIRLS Hostel are separate\n" +
-                    "1 minute walk from college.\n" +
-                    "Lunch will be provided for hostellers on 4th floor.",
+            "Separate hostels for boys and girls\n" +
+                    "1 minute walk from college\n" +
+                    "Lunch served at college premise: 4th floor\n" +
+                    "Wardens to be contacted for all requirement",
 
             /*STUDENT*/
-            "Anti-ragging - HOD\n" +
+            "Who to contact for what?\n" +
+                    "Anti-ragging - HOD\n" +
                     "Anti-Sexual Harassment Cell – Ms. Roseline\n" +
                     "Counselor – Ms. Bhama Suresh\n" +
-                    "Grievances Cell – Class Teacher"
+                    "Physical Instructor: Mr Arun Prem\n" +
+                    "Grievance Cell – Class Teacher\n" +
+                    "Facilities head: Mr Raman"
     };
 
 
