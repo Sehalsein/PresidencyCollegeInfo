@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1092458358977",
+    "firebase_url": "https://presidencycollegeinfo.firebaseio.com",
+    "project_id": "presidencycollegeinfo",
+    "storage_bucket": "presidencycollegeinfo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092458358977:android:2415a60b5a1459d7",
+        "android_client_info": {
+          "package_name": "com.sehalsein.presidencycollegeinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092458358977-0eafgro88dpjm8lk7gvjrao1g9kuebgu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPXTqVVBo5cluSR8xruCXHwQyHD4Qs20w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

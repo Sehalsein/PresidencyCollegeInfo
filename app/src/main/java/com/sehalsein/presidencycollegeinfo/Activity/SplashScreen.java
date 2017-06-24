@@ -14,6 +14,8 @@ import android.widget.Toast;
 
 import com.sehalsein.presidencycollegeinfo.R;
 
+import me.alexrs.prefs.lib.Prefs;
+
 public class SplashScreen extends AppCompatActivity {
 
 
@@ -49,10 +51,11 @@ public class SplashScreen extends AppCompatActivity {
             @Override
             public void run() {
 
-               // Toast.makeText(SplashScreen.this,"DONE",Toast.LENGTH_SHORT).show();
-                Intent i = new Intent(SplashScreen.this, MainActivity.class);
-                startActivity(i);
-                finish();
+
+                    Intent i = new Intent(SplashScreen.this, MainActivity.class);
+                    startActivity(i);
+                    finish();
+
 
             }
         }, myTimer);

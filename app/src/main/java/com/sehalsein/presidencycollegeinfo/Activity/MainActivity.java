@@ -1,5 +1,6 @@
 package com.sehalsein.presidencycollegeinfo.Activity;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -16,12 +17,16 @@ import net.bohush.geometricprogressview.GeometricProgressView;
 import java.util.ArrayList;
 import java.util.List;
 
+import me.alexrs.prefs.lib.Prefs;
+
 public class MainActivity extends AppCompatActivity {
 
     private String TAG = getClass().getName();
 
     private RecyclerView recyclerView;
     GeometricProgressView geometricProgressView;
+
+    String key = "logged_in";
 
     private List<ListModel> listModelsList = new ArrayList<>();
 
@@ -164,6 +169,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        if(!Prefs.with(getApplicationContext()).getBoolean(key, false)) {
+            Intent i = new Intent(MainActivity.this, Login.class);
+            startActivity(i);
+            finish();
+        }
 
         geometricProgressView = (GeometricProgressView) findViewById(R.id.progressView);
 
