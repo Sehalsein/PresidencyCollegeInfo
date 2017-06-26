@@ -67,100 +67,100 @@ public class MainActivity extends AppCompatActivity {
 
     String solutions[] = {
             /*ROUTE*/
-            "Landmark 1: Esteem Mall\n" +
-                    "Landmark 2: Towards Kempapura road\n" +
-                    "5 mins walk on this road towards Kempapura\n" +
-                    "College building to your left",
+            "\u2022 Landmark 1: Esteem Mall\n" +
+                    "\u2022 Landmark 2: Towards Kempapura road\n" +
+                    "\u2022 5 mins walk on this road towards Kempapura\n" +
+                    "\u2022 College building to your left",
 
             /*SECURITY CHECK*/
-            "Security check at gate a must\n" +
-                    "ID cards to be displayed prominently\n" +
-                    "Registration at counter a must for visitors and parents\n" +
-                    "Uniform check a must at gate\n" +
-                    "CCTV monitored gates",
+            "\u2022 Security check at gate a must\n" +
+                    "\u2022 ID cards to be displayed prominently\n" +
+                    "\u2022 Registration at counter a must for visitors and parents\n" +
+                    "\u2022 Uniform check a must at gate\n" +
+                    "\u2022 CCTV monitored gates",
 
             /*Reception*/
-            "Digital display  boards at lobby\n" +
-                    "Ms Radhika at the reception\n" +
-                    "Lift access is only on permission\n" +
-                    "Soft tone of language and voice is respected",
+            "\u2022 Digital display  boards at lobby\n" +
+                    "\u2022 Ms Radhika at the reception\n" +
+                    "\u2022 Lift access is only on permission\n" +
+                    "\u2022 Soft tone of language and voice is respected",
 
             /*Orientation*/
-            "A must for all students\n" +
-                    "Session for overview of College and courses of the Department\n" +
-                    "Conducted by the Head of the Department\n" +
-                    "Venue: Seminar hall",
+            "\u2022 A must for all students\n" +
+                    "\u2022 Session for overview of College and courses of the Department\n" +
+                    "\u2022 Conducted by the Head of the Department\n" +
+                    "\u2022 Venue: Seminar hall",
 
             /*Administration*/
-            "Located in the basement\n" +
-                    "Contact point for all queries related to admission formalities and University norms\n" +
-                    "Contact point: Ms Bhan",
+            "\u2022 Located in the basement\n" +
+                    "\u2022 Contact point for all queries related to admission formalities and University norms\n" +
+                    "\u2022 Contact point: Ms Bhan",
 
             /*Accounts*/
-            "Located in the ground floor next to Admission office near the Atrium \n" +
-                    "All course fee, exam fee, other fee done here",
+            "\u2022 Located in the ground floor next to Admission office near the Atrium \n" +
+                    "\u2022 All course fee, exam fee, other fee done here",
 
             /*Library*/
-            "Located at the 2nd & 3rd floors\n" +
-                    "Temporary ID CARDs will be provided for all freshers\n" +
-                    "A must use space for all students",
+            "\u2022 Located at the 2nd & 3rd floors\n" +
+                    "\u2022 Temporary ID CARDs will be provided for all freshers\n" +
+                    "\u2022 A must use space for all students",
 
             /*Class*/
-            "UG courses:\n" +
-                    "BCA/BA: Basement classrooms and Psychology Lab\n" +
-                    "BCom/BBA:  Ground floor, above the Atrium classrooms and II floor\n" +
-                    "Computer labs: Ground floor",
+            "\u2022 UG courses:\n" +
+                    "\u2022 BCA/BA: Basement classrooms and Psychology Lab\n" +
+                    "\u2022 BCom/BBA:  Ground floor, above the Atrium classrooms and II floor\n" +
+                    "\u2022 Computer labs: Ground floor",
 
             /*Canteen*/
-            "Located at the rear side of the building\n" +
-                    "Menu at display for each day -Break fast, Lunch and snack available apart from ice cream and chaat\n" +
-                    "Veg and Non veg food available",
+            "\u2022 Located at the rear side of the building\n" +
+                    "\u2022 Menu at display for each day -Break fast, Lunch and snack available apart from ice cream and chaat\n" +
+                    "\u2022 Veg and Non veg food available",
 
             /*Sports*/
-            "Indoor and Outdoor games\n" +
-                    "Basket ball court: near parking area\n" +
-                    "Badminton court: near parking area\n" +
-                    "Indoor Games\n" +
-                    "Table tennis & carrom : 4th floor.",
+            "\u2022 Indoor and Outdoor games\n" +
+                    "\u2022 Basket ball court: near parking area\n" +
+                    "\u2022 Badminton court: near parking area\n" +
+                    "\u2022 Indoor Games\n" +
+                    "\u2022 Table tennis & carrom : 4th floor.",
 
             /*Club*/
-            "Technozia – IT Club\n" +
-                    "Disha – Cultural  Club\n" +
-                    "ECO Club\n" +
-                    "Udaan – Human  Rights Club\n" +
-                    "Rotaract Club \n" +
-                    "Khoj  – Hindi Club\n" +
-                    "Odyssey – English Club \n" +
-                    "Prathibhana – Kannada Club ",
+            "\u2022 Technozia – IT Club\n" +
+                    "\u2022 Disha – Cultural  Club\n" +
+                    "\u2022 ECO Club\n" +
+                    "\u2022 Udaan – Human  Rights Club\n" +
+                    "\u2022 Rotaract Club \n" +
+                    "\u2022 Khoj  – Hindi Club\n" +
+                    "\u2022 Odyssey – English Club \n" +
+                    "\u2022 Prathibhana – Kannada Club ",
 
             /*Parking*/
-            "For 2 wheelers only\n" +
-                    "Rs 500 parking fee paid in advance \n" +
-                    "Parking sticker a must \n" +
-                    "Flash parking card at security for smooth entry at gate\n" +
-                    "Speed limit controlled\n" +
-                    "No honking or revving engine inside campus",
+            "\u2022 For 2 wheelers only\n" +
+                    "\u2022 Rs 500 parking fee paid in advance \n" +
+                    "\u2022 Parking sticker a must \n" +
+                    "\u2022 Flash parking card at security for smooth entry at gate\n" +
+                    "\u2022 Speed limit controlled\n" +
+                    "\u2022 No honking or revving engine inside campus",
 
             /*Clinic*/
-            "Located inside Marketing office\n" +
-                    "Doctor on call \n" +
-                    "First aid and basic medical aid ready at campus\n" +
-                    "Counsellor: Ms Bhama Suresh",
+            "\u2022 Located inside Marketing office\n" +
+                    "\u2022 Doctor on call \n" +
+                    "\u2022 First aid and basic medical aid ready at campus\n" +
+                    "\u2022 Counsellor: Ms Bhama Suresh",
 
             /*Hostel*/
-            "Separate hostels for boys and girls\n" +
-                    "1 minute walk from college\n" +
-                    "Lunch served at college premise: 4th floor\n" +
-                    "Wardens to be contacted for all requirement",
+            "\u2022 Separate hostels for boys and girls\n" +
+                    "\u2022 1 minute walk from college\n" +
+                    "\u2022 Lunch served at college premise: 4th floor\n" +
+                    "\u2022 Wardens to be contacted for all requirement",
 
             /*STUDENT*/
-            "Who to contact for what?\n" +
-                    "Anti-ragging - HOD\n" +
-                    "Anti-Sexual Harassment Cell – Ms. Roseline\n" +
-                    "Counselor – Ms. Bhama Suresh\n" +
-                    "Physical Instructor: Mr Arun Prem\n" +
-                    "Grievance Cell – Class Teacher\n" +
-                    "Facilities head: Mr Raman"
+            "\u2022 Who to contact for what?\n" +
+                    "\u2022 Anti-ragging - HOD\n" +
+                    "\u2022 Anti-Sexual Harassment Cell – Ms. Roseline\n" +
+                    "\u2022 Counselor – Ms. Bhama Suresh\n" +
+                    "\u2022 Physical Instructor: Mr Arun Prem\n" +
+                    "\u2022 Grievance Cell – Class Teacher\n" +
+                    "\u2022 Facilities head: Mr Raman"
     };
 
 
