@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
             /*Administration*/
             "\u2022 Located in the basement\n" +
                     "\u2022 Contact point for all queries related to admission formalities and University norms\n" +
-                    "\u2022 Contact point: Ms Bhan",
+                    "\u2022 Contact point: Ms Bhanu",
 
             /*Accounts*/
             "\u2022 Located in the ground floor next to Admission office near the Atrium \n" +
