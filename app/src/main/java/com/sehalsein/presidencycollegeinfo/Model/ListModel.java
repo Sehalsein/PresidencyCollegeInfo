@@ -8,6 +8,8 @@ public class ListModel {
     String quetions;
     String answers;
     int images;
+    int detailImage;
+
 
     public ListModel() {
     }
@@ -35,5 +37,13 @@ public class ListModel {
 
     public void setAnswers(String answers) {
         this.answers = answers;
+    }
+
+    public int getDetailImage() {
+        return detailImage;
+    }
+
+    public void setDetailImage(int detailImage) {
+        this.detailImage = detailImage;
     }
 }

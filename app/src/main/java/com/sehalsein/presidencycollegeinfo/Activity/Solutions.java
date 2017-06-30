@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.sehalsein.presidencycollegeinfo.Model.ListModel;
@@ -17,6 +18,7 @@ public class Solutions extends AppCompatActivity {
     private TextView solutions;
     private TextView title;
     private Button additional;
+    private ImageView detailImage;
 
     public ListModel listModel;
 
@@ -30,10 +32,12 @@ public class Solutions extends AppCompatActivity {
         solutions = (TextView) findViewById(R.id.answers);
         title = (TextView) findViewById(R.id.title);
         additional = (Button) findViewById(R.id.additionalInfo);
+        detailImage = (ImageView) findViewById(R.id.detailImage);
 
 
         answers = UserData.listModel.getAnswers();
         quetions = UserData.listModel.getQuetions().toUpperCase();
+        detailImage.setBackgroundResource(UserData.listModel.getDetailImage());
 
         if(quetions.equals("ROUTE")) {
             additional.setVisibility(View.VISIBLE);

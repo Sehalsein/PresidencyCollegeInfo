@@ -65,6 +65,26 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.teacher1
     };
 
+    int detailedImage[] = {
+
+            R.drawable.college,
+            R.drawable.securitycheck1,
+            R.drawable.reception3,
+            R.drawable.orientation,
+            R.drawable.admin,
+            R.drawable.accounts,
+            R.drawable.library5,
+            R.drawable.lecturehall,
+            R.drawable.canteen,
+            R.drawable.sports,
+            R.drawable.club,
+            R.drawable.parking,
+            R.drawable.clinic,
+            R.drawable.hostel4,
+            R.drawable.support
+    };
+
+
     String solutions[] = {
             /*ROUTE*/
             "\u2022 Landmark 1: Esteem Mall\n" +
@@ -203,6 +223,7 @@ public class MainActivity extends AppCompatActivity {
                 model.setQuetions(categories[i]);
                 model.setAnswers(solutions[i]);
                 model.setImages(images[i]);
+                model.setDetailImage(detailedImage[i]);
                 result.add(model);
             }
         } catch (Exception e) {
